@@ -9,6 +9,7 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
-    "passport-local": "1.0.0"
+    "connect-mongodb-session": "2.3.1",
+    "session": "0.1.0"
   }
 }
