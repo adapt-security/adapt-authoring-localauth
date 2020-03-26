@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "connect-mongodb-session": "2.3.1",
-    "session": "0.1.0"
+    "express-session": "1.17.0"
   }
 }
