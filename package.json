@@ -5,9 +5,10 @@
   "homepage": "https://github.com/adapt-security/adapt-authoring-localauth",
   "main": "index.js",
   "peerDependencies": {
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
-    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git"
+    "passport-local": "1.0.0"
   }
 }
