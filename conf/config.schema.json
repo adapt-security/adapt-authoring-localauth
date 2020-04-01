@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "sessionCollection": {
+      "description": "Name of the database collection used to store user session data",
+      "type": "string",
+      "default": "usersessions"
+    },
+    "sessionSameSite": {
+      "description": "Asserts that a cookie must not be sent with cross-origin requests",
+      "type": "string",
+      "default": "strict"
+    },
+    "sessionSecret": {
+      "description": "A secret used to encode/decode user sessions",
+      "type": "string"
+    },
+    "sessionSecure": {
+      "description": "If true, cookie is only sent to the server when a request is made with the https scheme",
+      "type": ["boolean", "string"],
+      "default": "auto"
+    },
+    "sessionLifespan": {
+      "description": "How long a session should remain valid for in milliseconds",
+      "type": "number",
+      "default": 604800000
+    }
+  },
+  "required": ["sessionSecret"]
+}
