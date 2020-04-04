@@ -9,7 +9,7 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
-    "connect-mongodb-session": "2.3.1",
+    "connect-mongo": "3.2.0",
     "express-session": "1.17.0"
   }
 }
