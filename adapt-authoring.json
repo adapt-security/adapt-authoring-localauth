@@ -1,5 +1,11 @@
 {
   "documentation": {
     "enable": true
-  }
+  },
+  "moduleDependencies": [
+    "adapt-authoring-auth",
+    "adapt-authoring-server",
+    "adapt-authoring-sessions",
+    "adapt-authoring-users"
+  ]
 }
