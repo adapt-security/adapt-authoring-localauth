@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Extra user properties related to local auth",
+  "type": "object",
+  "properties": {
+    "email": {
+      "description": "Password for the user",
+      "type": "string",
+      "format": "password"
+    }
+  }
+}
