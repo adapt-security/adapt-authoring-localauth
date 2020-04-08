@@ -3,7 +3,7 @@
   "description": "Extra user properties related to local auth",
   "type": "object",
   "properties": {
-    "email": {
+    "password": {
       "description": "Password for the user",
       "type": "string",
       "format": "password"
