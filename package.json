@@ -9,6 +9,7 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "connect-mongo": "3.2.0",
     "express-session": "1.17.0"
   }
