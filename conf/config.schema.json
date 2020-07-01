@@ -6,6 +6,21 @@
       "type": "number",
       "description": "The number of rounds performed when generating a password hash",
       "default": 10
+    },
+    "failsUntilTemporaryLock": {
+      "type": "number",
+      "description": "The number of failed login attempts allowed before the account is locked for a short period of time",
+      "default": 5
+    },
+    "failsUntilPermanentLock": {
+      "type": "number",
+      "description": "The number of failed login attempts allowed before the account is permanently locked",
+      "default": 20
+    },
+    "temporaryLockDuration": {
+      "type": "number",
+      "description": "The number of seconds a disabled user must wait before attempting to log in again",
+      "default": 60
     }
   }
 }

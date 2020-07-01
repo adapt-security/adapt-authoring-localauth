@@ -1,12 +1,26 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "localauthuser",
   "description": "Extra user properties related to local auth",
-  "type": "object",
-  "properties": {
-    "password": {
-      "description": "Password for the user",
-      "type": "string",
-      "format": "password"
+  "$merge": {
+    "with": {
+      "properties": {
+        "password": {
+          "description": "Password for the user",
+          "type": "string",
+          "format": "password"
+        },
+        "failedLoginAttempts": {
+          "type": "number",
+          "description": "The number of failed login attempts",
+          "default": 0
+        },
+        "lastFailedLoginAttempt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of the last failed login attempt"
+        }
+      }
     }
   }
 }
