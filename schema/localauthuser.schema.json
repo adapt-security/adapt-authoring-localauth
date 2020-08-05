@@ -3,7 +3,7 @@
   "$id": "localauthuser",
   "description": "Extra user properties related to local auth",
   "$merge": {
-    "type": "merge",
+    "source": { "$ref": "user" },
     "with": {
       "properties": {
         "password": {
