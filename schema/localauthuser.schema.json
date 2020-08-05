@@ -6,6 +6,16 @@
     "source": { "$ref": "user" },
     "with": {
       "properties": {
+        "isTempLocked": {
+          "description": "Whether the user account has been temporarily locked",
+          "type": "boolean",
+          "default": false
+        },
+        "isPermLocked": {
+          "description": "Whether the user account has been permanently locked",
+          "type": "boolean",
+          "default": false
+        },
         "password": {
           "description": "Password for the user",
           "type": "string",
