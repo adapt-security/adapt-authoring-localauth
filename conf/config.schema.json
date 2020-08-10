@@ -21,6 +21,11 @@
       "type": "number",
       "description": "The number of seconds a disabled user must wait before attempting to log in again",
       "default": 60
+    },
+    "resetTokenLifespan": {
+      "type": "number",
+      "description": "The number of milleseconds a password remains valid for",
+      "default": 600000
     }
   }
 }
