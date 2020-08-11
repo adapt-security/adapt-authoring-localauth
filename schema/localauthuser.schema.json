@@ -18,8 +18,7 @@
         },
         "password": {
           "description": "Password for the user",
-          "type": "string",
-          "format": "password"
+          "type": "string"
         },
         "failedLoginAttempts": {
           "type": "number",
