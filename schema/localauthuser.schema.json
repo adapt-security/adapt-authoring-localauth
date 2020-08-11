@@ -29,6 +29,7 @@
         "lastFailedLoginAttempt": {
           "type": "string",
           "format": "date-time",
+          "isDate": true,
           "description": "Timestamp of the last failed login attempt"
         }
       }
