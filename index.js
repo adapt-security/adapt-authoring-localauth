@@ -1,2 +1,1 @@
-const localAuthModule = require('./lib/localAuthModule');
-module.exports = localAuthModule;
+module.exports = require('./lib/LocalAuthModule');
