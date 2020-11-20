@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "localauthuser",
+  "$anchor": "localauthuser",
   "description": "Extra user properties related to local auth",
   "$merge": {
     "source": { "$ref": "user" },
