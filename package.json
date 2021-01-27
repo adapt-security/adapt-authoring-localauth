@@ -4,12 +4,12 @@
   "description": "Module which implements username/password (local) authentication",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-localauth",
   "license": "GPL-3.0",
-  "repository": "github:adaptlearning/adapt-authoring-localauth",
+  "repository": "adaptlearning/adapt-authoring-localauth",
   "main": "index.js",
   "peerDependencies": {
-    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git",
-    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git",
-    "adapt-authoring-sessions": "github:adapt-security/adapt-authoring-sessions.git"
+    "adapt-authoring-auth": "adapt-security/adapt-authoring-auth",
+    "adapt-authoring-core": "adapt-security/adapt-authoring-core",
+    "adapt-authoring-sessions": "adapt-security/adapt-authoring-sessions"
   },
   "dependencies": {
     "bcryptjs": "2.4.3",
