@@ -15,6 +15,6 @@
     "bcryptjs": "2.4.3",
     "connect-mongo": "3.2.0",
     "express-session": "1.17.0",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   }
 }
