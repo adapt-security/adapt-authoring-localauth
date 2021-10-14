@@ -21,15 +21,15 @@
           "type": "string"
         },
         "failedLoginAttempts": {
-          "type": "number",
           "description": "The number of failed login attempts",
+          "type": "number",
           "default": 0
         },
         "lastFailedLoginAttempt": {
+          "description": "Timestamp of the last failed login attempt",
           "type": "string",
           "format": "date-time",
-          "isDate": true,
-          "description": "Timestamp of the last failed login attempt"
+          "isDate": true
         }
       }
     }
