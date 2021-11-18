@@ -4,6 +4,7 @@
   "description": "Module which implements username/password (local) authentication",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-localauth",
   "license": "GPL-3.0",
+  "type": "module",
   "main": "index.js",
   "repository": "adaptlearning/adapt-authoring-localauth",
   "dependencies": {

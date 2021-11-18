@@ -1,4 +1,2 @@
-module.exports = {
-  Module: require('./lib/LocalAuthModule'),
-  PasswordUtils: require('./lib/PasswordUtils')
-};
+export { default } from './lib/LocalAuthModule.js';
+export { default as PasswordUtils } from './lib/PasswordUtils.js';
