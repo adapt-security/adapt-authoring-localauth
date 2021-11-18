@@ -1,2 +1,2 @@
 export { default } from './lib/LocalAuthModule.js';
-export { default as PasswordUtils } from './lib/PasswordUtils';
+export { default as PasswordUtils } from './lib/PasswordUtils.js';
