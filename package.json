@@ -14,8 +14,8 @@
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
-    "adapt-authoring-auth": "adapt-security/adapt-authoring-auth",
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core",
-    "adapt-authoring-sessions": "adapt-security/adapt-authoring-sessions"
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
+    "adapt-authoring-sessions": "github:adapt-security/adapt-authoring-sessions"
   }
 }
