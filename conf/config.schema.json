@@ -24,8 +24,8 @@
     },
     "resetTokenLifespan": {
       "type": "number",
-      "description": "The number of milleseconds a password remains valid for",
-      "default": 600000
+      "description": "The number of milleseconds a password reset token remains valid for",
+      "default": 10800000
     }
   }
 }
