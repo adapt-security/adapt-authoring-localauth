@@ -26,6 +26,11 @@
       "type": "number",
       "description": "The number of milleseconds a password reset token remains valid for",
       "default": 10800000
+    },
+    "inviteTokenLifespan": {
+      "type": "number",
+      "description": "The number of milleseconds an invite password reset token remains valid for",
+      "default": 604800000
     }
   }
 }
