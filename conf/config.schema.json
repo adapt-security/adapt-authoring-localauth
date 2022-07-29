@@ -31,6 +31,31 @@
       "type": "number",
       "description": "The number of milleseconds an invite password reset token remains valid for",
       "default": 604800000
-    }
+    },
+    "minPasswordLength": {
+      "type": "number",
+      "description": "Minimum password length",
+      "default": 8
+    },
+    "passwordMustHaveNumber": {
+      "type": "boolean",
+      "description": "Whether the password must contain at least one number",
+      "default": false
+    },
+    "passwordMustHaveUppercase": {
+      "type": "boolean",
+      "description": "Whether the password must contain at least one uppercase character",
+      "default": false
+    },
+    "passwordMustHaveLowercase": {
+      "type": "boolean",
+      "description": "Whether the password must contain at least one lowercase character",
+      "default": false
+    },
+    "passwordMustHaveSpecial": {
+      "type": "boolean",
+      "description": "Whether the password must contain at least one special character",
+      "default": false
+    },
   }
 }

@@ -14,5 +14,28 @@
   "INVALID_PASSWORD": {
     "description": "Provided password does not match that stored",
     "statusCode": 401
+  },
+  "INVALID_PASSWORD_LENGTH": {
+    "data": {
+      "length": "the minimum required number of characters"
+    },
+    "description": "Password must be at least the required number of characters",
+    "statusCode": 401
+  },
+  "INVALID_PASSWORD_UPPERCASE": {
+    "description": "Password must contain at least one uppercase character",
+    "statusCode": 401
+  },
+  "INVALID_PASSWORD_LOWERCASE": {
+    "description": "Password must contain at least one lowercase character",
+    "statusCode": 401
+  },
+  "INVALID_PASSWORD_NUMBER": {
+    "description": "Password must contain at least one number",
+    "statusCode": 401
+  },
+  "INVALID_PASSWORD_SPECIAL": {
+    "description": "Password must contain at least one special character (#?!@$%^&*-)",
+    "statusCode": 401
   }
 }
