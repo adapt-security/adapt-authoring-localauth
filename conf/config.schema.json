@@ -56,6 +56,6 @@
       "type": "boolean",
       "description": "Whether the password must contain at least one special character",
       "default": false
-    },
+    }
   }
 }
