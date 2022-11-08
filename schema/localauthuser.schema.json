@@ -9,16 +9,19 @@
         "isTempLocked": {
           "description": "Whether the user account has been temporarily locked",
           "type": "boolean",
-          "default": false
+          "default": false,
+          "isReadOnly": true
         },
         "isPermLocked": {
           "description": "Whether the user account has been permanently locked",
           "type": "boolean",
-          "default": false
+          "default": false,
+          "isReadOnly": true
         },
         "password": {
           "description": "Password for the user",
-          "type": "string"
+          "type": "string",
+          "isInternal": true
         },
         "failedLoginAttempts": {
           "description": "The number of failed login attempts",
@@ -29,7 +32,8 @@
           "description": "Timestamp of the last failed login attempt",
           "type": "string",
           "format": "date-time",
-          "isDate": true
+          "isDate": true,
+          "isReadOnly": true
         }
       }
     }
