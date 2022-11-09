@@ -3,18 +3,18 @@
   "type": "object",
   "properties": {
     "saltRounds": {
-      "type": "number",
       "description": "The number of rounds performed when generating a password hash",
+      "type": "number",
       "default": 10
     },
     "failsUntilTemporaryLock": {
-      "type": "number",
       "description": "The number of failed login attempts allowed before the account is locked for a short period of time",
+      "type": "number",
       "default": 5
     },
     "failsUntilPermanentLock": {
-      "type": "number",
       "description": "The number of failed login attempts allowed before the account is permanently locked",
+      "type": "number",
       "default": 20
     },
     "temporaryLockDuration": {
@@ -24,40 +24,40 @@
       "default": "1m"
     },
     "resetTokenLifespan": {
-      "type": "string",
       "description": "The amount of time a password reset token remains valid for",
+      "type": "string",
       "isTimeMs": true,
       "default": "3h"
     },
     "inviteTokenLifespan": {
-      "type": "string",
       "description": "The amount of time an invite password reset token remains valid for",
+      "type": "string",
       "isTimeMs": true,
       "default": "7d"
     },
     "minPasswordLength": {
-      "type": "number",
       "description": "Minimum password length",
+      "type": "number",
       "default": 8
     },
     "passwordMustHaveNumber": {
-      "type": "boolean",
       "description": "Whether the password must contain at least one number",
+      "type": "boolean",
       "default": false
     },
     "passwordMustHaveUppercase": {
-      "type": "boolean",
       "description": "Whether the password must contain at least one uppercase character",
+      "type": "boolean",
       "default": false
     },
     "passwordMustHaveLowercase": {
-      "type": "boolean",
       "description": "Whether the password must contain at least one lowercase character",
+      "type": "boolean",
       "default": false
     },
     "passwordMustHaveSpecial": {
-      "type": "boolean",
       "description": "Whether the password must contain at least one special character",
+      "type": "boolean",
       "default": false
     }
   }
