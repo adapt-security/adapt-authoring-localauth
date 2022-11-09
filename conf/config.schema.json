@@ -18,19 +18,22 @@
       "default": 20
     },
     "temporaryLockDuration": {
-      "type": "number",
-      "description": "The number of seconds a disabled user must wait before attempting to log in again",
-      "default": 60
+      "description": "The amount of time a locked user must wait before attempting to log in again",
+      "type": "string",
+      "isTimeMs": true,
+      "default": "1m"
     },
     "resetTokenLifespan": {
-      "type": "number",
-      "description": "The number of milleseconds a password reset token remains valid for",
-      "default": 10800000
+      "type": "string",
+      "description": "The amount of time a password reset token remains valid for",
+      "isTimeMs": true,
+      "default": "3h"
     },
     "inviteTokenLifespan": {
-      "type": "number",
-      "description": "The number of milleseconds an invite password reset token remains valid for",
-      "default": 604800000
+      "type": "string",
+      "description": "The amount of time an invite password reset token remains valid for",
+      "isTimeMs": true,
+      "default": "7d"
     },
     "minPasswordLength": {
       "type": "number",
