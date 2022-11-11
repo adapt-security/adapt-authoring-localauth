@@ -1,4 +1,15 @@
 {
+  "ACCOUNT_LOCKED_PERM": {
+    "description": "User account has been permanently locked",
+    "statusCode": 401
+  },
+  "ACCOUNT_LOCKED_TEMP": {
+    "data": {
+      "remaining": "The amount of time remaining before account is unlocked"
+    },
+    "description": "User account has been temporarily locked",
+    "statusCode": 401
+  },
   "ACCOUNT_NOT_LOCALAUTHD": {
     "description": "Specified account is not authenticated with local auth",
     "statusCode": 400
