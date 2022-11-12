@@ -14,10 +14,6 @@
     "description": "Specified account is not authenticated with local auth",
     "statusCode": 400
   },
-  "ACCOUNT_UNLOCK_FAILED": {
-    "description": "Failed to unlock user account",
-    "statusCode": 400
-  },
   "INVALID_PASSWORD": {
     "description": "Provided password does not match that stored",
     "statusCode": 401
