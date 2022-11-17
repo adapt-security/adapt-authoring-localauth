@@ -14,8 +14,15 @@
     "description": "Specified account is not authenticated with local auth",
     "statusCode": 400
   },
-  "INVALID_PASSWORD": {
+  "INCORRECT_PASSWORD": {
     "description": "Provided password does not match that stored",
+    "statusCode": 401
+  },
+  "INVALID_PASSWORD": {
+    "data": {
+      "errors": "The validation errors"
+    },
+    "description": "Password failed validation",
     "statusCode": 401
   },
   "INVALID_PASSWORD_LENGTH": {
