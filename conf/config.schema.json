@@ -38,27 +38,42 @@
     "minPasswordLength": {
       "description": "Minimum password length",
       "type": "number",
-      "default": 8
+      "default": 8,
+      "_adapt": {
+        "isPublic": true
+      }
     },
     "passwordMustHaveNumber": {
       "description": "Whether the password must contain at least one number",
       "type": "boolean",
-      "default": false
+      "default": false,
+      "_adapt": {
+        "isPublic": true
+      }
     },
     "passwordMustHaveUppercase": {
       "description": "Whether the password must contain at least one uppercase character",
       "type": "boolean",
-      "default": false
+      "default": false,
+      "_adapt": {
+        "isPublic": true
+      }
     },
     "passwordMustHaveLowercase": {
       "description": "Whether the password must contain at least one lowercase character",
       "type": "boolean",
-      "default": false
+      "default": false,
+      "_adapt": {
+        "isPublic": true
+      }
     },
     "passwordMustHaveSpecial": {
       "description": "Whether the password must contain at least one special character",
       "type": "boolean",
-      "default": false
+      "default": false,
+      "_adapt": {
+        "isPublic": true
+      }
     }
   }
 }
