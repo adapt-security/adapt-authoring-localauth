@@ -47,5 +47,9 @@
   "INVALID_PASSWORD_SPECIAL": {
     "description": "Password must contain at least one special character (#?!@$%^&*-)",
     "statusCode": 401
+  },
+  "SUPER_USER_EXISTS": {
+    "description": "A Super Admin account already exists",
+    "statusCode": 400
   }
 }
