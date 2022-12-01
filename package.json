@@ -10,7 +10,8 @@
   "dependencies": {
     "bcryptjs": "2.4.3",
     "date-fns": "^2.23.0",
-    "express-session": "1.17.0"
+    "express-session": "1.17.0",
+    "lodash": "^4.17.21"
   },
   "peerDependencies": {
     "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
