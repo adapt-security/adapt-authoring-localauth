@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$anchor": "localauthuser",
-  "description": "Extra user properties related to local auth",
+  "description": "Local authentication user",
   "$merge": {
     "source": { "$ref": "user" },
     "with": {
@@ -35,7 +35,8 @@
           "isDate": true,
           "isReadOnly": true
         }
-      }
+      },
+      "required": ["password"]
     }
   }
 }
