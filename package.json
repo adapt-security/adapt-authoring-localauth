@@ -16,5 +16,9 @@
     "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
     "adapt-authoring-sessions": "github:adapt-security/adapt-authoring-sessions"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "standard": "^17.0.0"
   }
 }
