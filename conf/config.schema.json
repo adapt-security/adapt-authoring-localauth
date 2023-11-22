@@ -38,7 +38,7 @@
     "minPasswordLength": {
       "description": "Minimum password length",
       "type": "number",
-      "default": 12,
+      "default": 8,
       "_adapt": {
         "isPublic": true
       }
