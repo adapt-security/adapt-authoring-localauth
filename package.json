@@ -9,7 +9,7 @@
   "repository": "github:adapt-security/adapt-authoring-localauth",
   "dependencies": {
     "bcryptjs": "2.4.3",
-    "date-fns": "^2.23.0",
+    "date-fns": "^2.30.0",
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
@@ -18,7 +18,7 @@
     "adapt-authoring-sessions": "github:adapt-security/adapt-authoring-sessions"
   },
   "devDependencies": {
-    "eslint": "^8.36.0",
-    "standard": "^17.0.0"
+    "eslint": "^8.56.0",
+    "standard": "^17.1.0"
   }
 }
