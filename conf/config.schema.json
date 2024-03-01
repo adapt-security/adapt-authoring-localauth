@@ -2,6 +2,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
+    "initialSuperUserEmail": {
+      "description": "Email address for the initial Super User account",
+      "type": "string"
+    },
     "saltRounds": {
       "description": "The number of rounds performed when generating a password hash",
       "type": "number",
